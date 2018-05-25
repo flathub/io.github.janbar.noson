@@ -4,7 +4,6 @@
   "runtime-version": "5.10",
   "sdk": "org.kde.Sdk",
   "command": "noson-app",
-  "rename-desktop-file": "noson.desktop",
   "rename-icon": "noson",
   "finish-args": [
     "--share=ipc",
@@ -47,21 +46,10 @@
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/janbar/noson-app.git",
-          "tag": "3.3.6"
-        },
-        {
-          "type": "patch",
-          "path": "use-installed-icon-name.patch"
-        },
-        {
-          "type": "file",
-          "path": "io.github.janbar.noson.appdata.xml"
+          "type": "archive",
+          "url": "https://github.com/janbar/noson-app/archive/3.3.6.tar.gz",
+          "sha256": "b0f5514f7ae94117c8ab3178ce5498aeeff2ca9ac53b8787828f621561ec7098"
         }
-      ],
-      "post-install": [
-        "install -Dm644 io.github.janbar.noson.appdata.xml /app/share/appdata/io.github.janbar.noson.appdata.xml"
       ]
     }
   ]
