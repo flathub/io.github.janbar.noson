@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.janbar.noson",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.9",
+  "runtime-version": "5.11",
   "sdk": "org.kde.Sdk",
   "command": "noson-app",
   "rename-icon": "noson",
@@ -47,8 +47,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/janbar/noson-app/archive/3.6.5.tar.gz",
-          "sha256": "d868d76c5067aa677ed219d9d6fa5fc596c7a1f753b3e666b4c65a15ddba29fe"
+          "url": "https://github.com/janbar/noson-app/archive/3.6.6.tar.gz",
+          "sha256": "7d48448d159e0cd15d6e51002bacf1877d6f1f709e0dd069ecd938cec3bef75f"
         }
       ]
     }
