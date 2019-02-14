@@ -9,6 +9,7 @@
     "--share=ipc",
     "--socket=wayland",
     "--socket=x11",
+    "--socket=pulseaudio",
     "--share=network",
     "--device=dri",
     "--filesystem=xdg-run/dconf",
@@ -47,8 +48,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/janbar/noson-app/archive/3.9.7.tar.gz",
-          "sha256": "32ef506b02e9821628c66fb9c8cb198724a467e67c8a3441d8e6328958c1b042"
+          "url": "https://github.com/janbar/noson-app/archive/3.10.0.tar.gz",
+          "sha256": "e31498c4800e6d11aa316adc40644b9a9b1c4966d5ac2bdf8f982cf8a652ac22"
         }
       ]
     }
