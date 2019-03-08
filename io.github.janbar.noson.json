@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.janbar.noson",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.11",
+  "runtime-version": "5.12",
   "sdk": "org.kde.Sdk",
   "command": "noson-app",
   "rename-icon": "noson",
@@ -31,14 +31,6 @@
     "*.la",
     "*.a"
   ],
-  "build-options": {
-    "cflags": "-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=2",
-    "cxxflags": "-O2 -g -fstack-protector-strong -D_FORTIFY_SOURCE=2",
-    "ldflags": "-fstack-protector-strong -Wl,-z,relro,-z,now",
-    "env": {
-      "V": "1"
-    }
-  },
   "modules": [
     {
       "name": "noson",
@@ -49,8 +41,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/janbar/noson-app/archive/3.11.1.tar.gz",
-          "sha256": "2e4635f237c5c747b446344b7037fa91834c8b1714f4e1b16bc77d8c3e4322ad"
+          "url": "https://github.com/janbar/noson-app/archive/3.11.1-2.tar.gz",
+          "sha256": "2cc9b1e2b5e90affe554a36aeedf7b4f3260e4111506575479706730f8d3e17a"
         }
       ]
     }
