@@ -16,6 +16,9 @@
     "--filesystem=xdg-run/dconf",
     "--filesystem=~/.config/dconf:ro",
     "--talk-name=ca.desrt.dconf",
+    "--talk-name=org.freedesktop.Notifications",
+    "--talk-name=org.mpris.MediaPlayer2.Player",
+    "--own-name=org.mpris.MediaPlayer2.noson.*",
     "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
   ],
   "cleanup": [
@@ -41,8 +44,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/janbar/noson-app/archive/3.15.2.tar.gz",
-          "sha256": "62d4a53d3d8121d2bb811b218048b8a3c7303ad356ccb5fd1968531db48f9d65"
+          "url": "https://github.com/janbar/noson-app/archive/3.16.0.tar.gz",
+          "sha256": "db6e2926492185801a9574d2f7b3078b542e6c4cc7c1d4d728aa72fc85d97ea9"
         }
       ]
     }
