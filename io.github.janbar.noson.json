@@ -40,8 +40,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/janbar/noson-app/archive/5.0.3.tar.gz",
-          "sha256": "377f15beac5044df122669a79ce818e5da01dd552a1c6e5e8d2cccd2bdd805ca"
+          "url": "https://github.com/janbar/noson-app/archive/5.0.4.1.tar.gz",
+          "sha256": "eba9071dc87519aabdd25c65820f9691a61767886c6a66b7f21524f800635081"
         }
       ]
     }
