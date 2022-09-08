@@ -41,13 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/janbar/noson-app.git",
-          "tag": "5.2.2"
-        },
-        {
-          "type": "shell",
-          "commands": [
-            "sed -e 's|<release date=\"2022-04-26\" version=\"5.2.2\"/>|<release date=\"2022-05-02\" version=\"5.2.2-1\"/>|' -i noson.appdata.xml.in"
-          ]
+          "tag": "5.3.2"
         }
       ]
     }
