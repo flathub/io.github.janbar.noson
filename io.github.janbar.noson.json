@@ -35,7 +35,8 @@
       "name": "noson",
       "buildsystem": "cmake-ninja",
       "config-opts": [
-        "-DCMAKE_BUILD_TYPE=Release"
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_DEPENDENCIES=ON"
       ],
       "sources": [
         {
