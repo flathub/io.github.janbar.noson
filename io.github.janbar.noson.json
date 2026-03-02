@@ -1,7 +1,7 @@
 {
   "app-id": "io.github.janbar.noson",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-24.08",
+  "runtime-version": "5.15-25.08",
   "sdk": "org.kde.Sdk",
   "command": "noson-app",
   "rename-icon": "noson",
@@ -41,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/janbar/noson-app.git",
-          "tag": "5.6.15"
+          "tag": "5.6.16"
         }
       ]
     }
